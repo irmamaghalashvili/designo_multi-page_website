@@ -1,3 +1,4 @@
+
 import { Component, Input } from '@angular/core';
 
 @Component({
@@ -9,5 +10,4 @@ import { Component, Input } from '@angular/core';
 })
 export class ButtonComponent {
   @Input() buttonText: string = 'LEARN MORE';
-  @Input() backgroundClass: string = 'bg-white';
 }
