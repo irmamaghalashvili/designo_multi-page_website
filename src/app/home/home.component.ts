@@ -9,5 +9,5 @@ import { HeaderComponent } from '../shared/header/header.component';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-
+  
 }
