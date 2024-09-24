@@ -26,15 +26,11 @@ module.exports = {
         body: ["16px", { lineHeight: "26px" }],
       },
       margin: {
-        mx: {
-          dm: "164px",
-          tm: "39px",
-          mm: "35px",
-        },
-        my: {
-          dtm: "64px",
-          mobm: "24px",
-        },
+          mxcm: "164px",
+          mxtm: "39px",
+          mxmm: "35px",
+          mydtm: "64px",
+          mymobm: "24px",
       },
     },
   },
