@@ -1,0 +1,3 @@
+.tags-tablet a {
+    @apply text-secondary-darkGrey font-jost text-sm leading-[14px] font-normal tracking-[2px] uppercase my-auto cursor-pointer
+}

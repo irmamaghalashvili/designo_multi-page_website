@@ -1,16 +1,15 @@
-<nav class="flex justify-around mx-mxmm md:mx-mxtm lg:mx-mxcm my-mymobm md:my-mydtm lg:my-mydtm">
-    <img src="../../assets/shared/desktop/logo-light.svg" alt="logo">
-    <img class="sm:block md:hidden lg:hidden" src="../../../../public/assets/burger.svg" alt="burger">
-    <ul class=" gap-[42px] hidden md:flex flex-row lg:flex">
-        <li>
-            <a class="font-jost text-nav text-secondary-darkGrey" href="#">OUR COMPANY</a>
-        </li>
-        <li>
-            <a class="font-jost text-nav text-secondary-darkGrey" href="#">LOCATION</a>
-        </li>
-        <li>
-            <a class="font-jost text-nav text-secondary-darkGrey" href="#">CONTACT</a>
-        </li>
-    </ul>
-
+<nav
+  class="flex justify-around mx-mxmm md:mx-mxtm lg:mx-mxcm my-mymobm md:my-mydtm lg:my-mydtm"
+>
+  <img src="../../assets/shared/desktop/logo-light.svg" alt="logo" />
+  <img
+    class="sm:block md:hidden lg:hidden"
+    src="../../../../public/assets/burger.svg"
+    alt="burger"
+  />
+  <div class="hidden md:flex gap-[42px] tags-tablet">
+    <a routerLink="/about">Our company</a>
+    <a routerLink="/locations">locations</a>
+    <a routerLink="/contact">contact</a>
+  </div>
 </nav>
